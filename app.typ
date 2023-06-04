@@ -10,7 +10,7 @@
     == About me
 Hi there! My name is Rohith, and I'm passionate about all things related to computers. I find immense joy in delving into the intricate world of software and hardware, constantly exploring and pushing the boundaries of what technology can achieve.
 
-I have dedicated a significant portion of my time to tinkering with both software and hardware components. It's a thrilling experience for me to create and experiment with different aspects of computing.I have a drem of building an entire computing stack from scratch and have progressed somewhat on that journey through some of my projects:  A single-cycle CPU (#link("https://github.com/RS2007/single-cycle-cpu")[here]) and I am currently engrossed in the development of a compiler/interpreter (#link("https://github.com/RS2007/compiler-for-monkey")[here]). I am an ardent enthusiast of systems programming and loves looking "under the hood".
+I have dedicated a significant portion of my time to tinkering with both software and hardware components. It's a thrilling experience for me to create and experiment with different aspects of computing.I have a drem of building an entire computing stack from scratch and have progressed somewhat on that journey through some of my projects:  A single-cycle CPU (#link("https://github.com/RS2007/single-cycle-cpu")[here]), A chip8 emulator(#link("https://github.com/rs2007/chip8-Typescript")[here]) and I am currently engrossed in the development of a compiler/interpreter (#link("https://github.com/RS2007/compiler-for-monkey")[here]). I am an ardent enthusiast of systems programming and loves looking "under the hood".
 Apart from my hands-on approach to technology, I have a deep love for writing. I maintain a blog at #link("https://rohith.page")[rohith.page], where I share my insights, experiences, and discoveries in the world of computing. It's my way of contributing to the vast knowledge-sharing community and engaging in meaningful discussions. You can see a comprehensive list of my projects in my github repo (#link("https://github.com/RS2007")[here])
 
 When I'm not immersed in my own projects, you can often find me actively participating in online communities. I frequently visit platforms like Hacker News, where I absorb the latest news, trends, and thought-provoking discussions from the tech world. I also enjoy sharing my thoughts and insights on #link("https://twitter.com/RohithS68525052")[Twitter].
@@ -32,6 +32,27 @@ Some of the reasons why I feel like the drone swarm project would be an exciting
 ],
 [
   == Past Work
+  === Hardware
+
+    1. #link("https://github.com/RS2007/single-cycle-cpu")[Single Cycle CPU]
+
+      A single cycle RISC-V CPU, written in verilog and can be run on a PYNQ Z1 FPGA. Tested for performance and correctness for the RISC-V RV32I instruction set. Can clock upto 150MHz.
+
+    2. #link("https://github.com/RS2007/floating-point-add")[Floating Point Adder]
+
+      A hardware multi-cycle floating point adder thats capable of adding floating point numbers of 32 bits. The floating point numbers are represented in the IEEE 754 standard. The adder is written in verilog and can be run on a PYNQ Z1 FPGA.
+  === Systems software
+
+    1. #link("https://github.com/rs2007/chip8-Typescript")[Virtual Machine For Chip8]
+
+      A chip8 virtual machine implemented in typescript and runs in the terminal. Tested with the complete chip8-test suite and with canonical chip8 games like pong, tetris, space invaders etc.
+    2. #link("https://github.com/RS2007/compiler-for-monkey")[Interpreter for Monkey lang]
+
+      An interpreter for a javascript-esque progamming language written from scratch with no dependencies in C.
+
+    3. #link("https://github.com/RS2007/Simple-pratt-parser")[Pratt Parser]
+
+      A parser implementing the pratt parsing algorithm in golang. Supports operator precedence for infix,prefix and postfix operations.
 
 ],
 [
