@@ -21,8 +21,8 @@ func main() {
 	conn, err := net.Dial("tcp", "127.0.0.1:8080")
 	handleError(err)
 	for {
-    message,err := bufio.NewReader(conn).ReadString('\n');
+		message, err := bufio.NewReader(conn).ReadString('\n')
 		handleError(err)
-		println("Received message:",message)
+		println("Received message:", message)
 	}
 }
