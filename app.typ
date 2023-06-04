@@ -1,9 +1,45 @@
 #import "template.typ": *
 
 #set page(numbering: "1", paper: "a4")
+#show link:underline
 #init("General Purpose Swarm Application", "Rohith Suresh", student_number: "EP20B029")
 
+#answer(
+  "Introduction | Q1 | More about me",
+  [
+    == About me
+Hi there! My name is Rohith, and I'm passionate about all things related to computers. I find immense joy in delving into the intricate world of software and hardware, constantly exploring and pushing the boundaries of what technology can achieve.
 
+I have dedicated a significant portion of my time to tinkering with both software and hardware components. It's a thrilling experience for me to create and experiment with different aspects of computing.I have a drem of building an entire computing stack from scratch and have progressed somewhat on that journey through some of my projects:  A single-cycle CPU (#link("https://github.com/RS2007/single-cycle-cpu")[here]) and I am currently engrossed in the development of a compiler/interpreter (#link("https://github.com/RS2007/compiler-for-monkey")[here]). I am an ardent enthusiast of systems programming and loves looking "under the hood".
+Apart from my hands-on approach to technology, I have a deep love for writing. I maintain a blog at #link("https://rohith.page")[rohith.page], where I share my insights, experiences, and discoveries in the world of computing. It's my way of contributing to the vast knowledge-sharing community and engaging in meaningful discussions. You can see a comprehensive list of my projects in my github repo (#link("https://github.com/RS2007")[here])
+
+When I'm not immersed in my own projects, you can often find me actively participating in online communities. I frequently visit platforms like Hacker News, where I absorb the latest news, trends, and thought-provoking discussions from the tech world. I also enjoy sharing my thoughts and insights on #link("https://twitter.com/RohithS68525052")[Twitter].
+  ],[
+== Motivation and Takeaways
+Some of the reasons why I feel like the drone swarm project would be an exciting and fullfilling endeavour for me are:
+
+1. #underline("Multi disciplinary nature and practical application")
+
+  The drone swarm project encompasses various modules, including electrical, robotics, and communication. This multidisciplinary nature aligns perfectly with my diverse interests,and integrating these different components would be both challenging as well as rewarding for me.The project offers an opportunity to see my work in action and contribute to some extent on a somewhat nascent niche of technology. 
+
+2. #underline("Embedded Hardware Development")
+
+  Working with physical components and getting hands-on experience with circuitry, sensors, actuators, and other embedded systems and low level programming would be fun. It would be a great opportunity for me to deepen his knowledge and skills in hardware design,implementation and low level software.
+
+3. #underline("Low-Level Networking and Communication")
+
+  As someone who enjoys twiddling with software and hardware, delving into the intricacies of low-level networking protocols, communication protocols, and network optimization would be intellectually stimulating for me and would help me implement such systems for my future endeavours(like when i build an OS :) )
+],
+[
+  == Past Work
+
+],
+[
+  == Popular Swarm Projects + Swarm Research Paper
+
+
+]
+)
 
 #answer(
   "Communication and Swarming | Question 2 | TCP/IP", 
